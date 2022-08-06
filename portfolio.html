@@ -8,6 +8,7 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -15,7 +16,7 @@
 
     <!-- Шапкка сайта -->
     <header>
-        <nav>
+        <nav class="container">
             <a href="/">
                 <span class="logo main">Web</span>
                 <span class="logo black">Studio</span>
@@ -27,14 +28,14 @@
                 <li><a href="#" class="link">Контакты</a></li>
             </ul>
     
-            <ul class="contacts">
-                <li><a href="#" class="link">info@devstudio.com</a></li>
-                <li><a href="#" class="link">+38 096 111 11 11</a></li>
-            </ul>
+            <address class="contacts">
+                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+                <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            </address>
         </nav>
     </header>
 
-    <section>
+    <section class="container2">
         <h1>Наши примеры</h1>
         <div>
             <button type="button" class="button-portfolio">Все</button>
@@ -52,7 +53,7 @@
             </li>
             <li>
                 <img src="./images/poster-busket.jpg" alt="Постер New Orlean vs Golden Star" width="370">
-                <h2 class="title">Постер New Orlean vs Golden Star</h2>
+                <h2 class="title-portfolio">Постер New Orlean vs Golden Star</h2>
                 <p>Дизайн</p>
             </li>
             <li>
@@ -77,7 +78,7 @@
             </li>
             <li>
                 <img src="./images/lim-edition.jpg" alt="Издание Limited Edition" width="370">
-                <h2 class="title">Издание Limited Edition</h2>
+                <h2 class="title-portfolio">Издание Limited Edition</h2>
                 <p>Дизайн</p>
             </li>
             <li>
@@ -94,16 +95,16 @@
     </section>
    
 
-    <footer>
+    <footer class="container">
         <a href="/">
             <span class="logo main">Web</span>
             <span class="logo white">Studio</span>
         </a>
 
-        <address>
+        <address class="address-footer">
             г. Киев, пр-т Леси Украинки, 26
-            <a href="#">info@devstudio.com</a>
-            <a href="#">+38 096 111 11 11</a>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
         </address>
     </footer>
 </body>
